@@ -1,0 +1,67 @@
+
+.container {
+
+    border: 2px solid rebeccapurple;
+    width: 89%;
+    height: 350px;
+    display: flex;
+    /* initiliaze the contianer as a flexbox */
+
+    /* flex properties for flex container */
+
+    flex-direction: row;
+    /* Dfault value  of flex-direction is row */
+
+    flex-direction: column;
+    /*All boxes will be column */
+
+    flex-direction: row-reverse;
+    /*All boxes will be row-reverse */
+    flex-direction: column-reverse;
+    /*All boxes will be column reverse */
+    flex-wrap: wrap;
+    /* Dfault value  of flex-direction  is wrap  / *
+/* flex-wrap: wrap-reverse; */
+    /*Default vlaue of flex direction is not wrap  */
+
+    /* justiy-content will justify all the  horizontal  direction */
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    /* align-items will justify all the  vertical  direction */
+    align-items: center;
+    align-items: flex-end;
+    align-items: stretch;
+
+}
+
+.item {
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid maroon;
+    width: 150px;
+    height: 59px;
+}
+#item-1{
+    order: 5;
+    flex-grow: 3;
+}
+#item-2{
+flex-grow: 40;
+}
+#item-3{
+
+}
+.heading{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 2px auto;
+    margin: 9px 262px;
+    border: 2px solid red;
+    padding: 3px 13px;
+    border-radius: 34px;
+  }
+
+
